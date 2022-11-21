@@ -1,0 +1,121 @@
+body{
+    height: 100vh;
+    background-image: url("fundo.webp");
+}
+section{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header{
+    height: 80px;
+    background-color: rgb(245, 233, 242);
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+}
+.home{
+    height: 50px;
+    width: 50px;
+}
+header input{
+    height: 40px;
+    width: 150px;
+    border-radius: 23px;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgb(237, 197, 247)
+}
+header input:focus{
+    outline: none;
+
+}
+input::placeholder{
+color: rgb(3, 140, 158);
+}
+.informacoes img{
+    padding: 8px;
+    align-self: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: solid 3px rgb(247, 83, 124 );
+    margin-bottom: 15px;
+
+
+}
+.informacoes h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.descricao{
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    height: fit-content;
+    max-width: 250px;
+}
+.seguidores{
+    font-family: var(--FontPrincipal);
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(51, 1, 61);
+    height: 111px;
+    width: 330px;
+    background-color:rgb(245, 205, 235);
+    border-radius: 23px;
+    box-shadow: 0px 4px 4px 0px #c507d60d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.seguidores div{
+    padding: 20px;
+}
+.informacoes{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(245, 205, 235);
+    height: fit-content;
+    width: fit-content;
+    border-radius: 15px;
+}
+.informacoes h2{
+    text-align: center;
+
+}
+.editarperfil{
+    font-family: var(--FontPrincipal);
+    height: 33.26px;
+    width: 150px;
+    background-color: rgb(245, 184, 242);
+    border-radius: 23px;
+    text-align: center;
+    border: none;
+    font-weight: 700;
+    box-shadow: 0px 4px 4px 0px #F3C0FD;
+}
+.configuracoes{
+    display: flex;
+    flex-direction: column;
+}
+.engrenagem{
+    height: 50px;
+    width: 50px;
+    padding-top: 20px;
+    align-self: center;
+}
